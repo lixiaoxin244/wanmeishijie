@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#good {
+  width: 1239px;
+  margin-top: 80px;
+}
+
+.wrap {
+  width: 1239px;
+  margin: 0 auto;
+}
+
+ul {
+  width: 430px;
+  height: 430px;
+  overflow: hidden;
+  float: left;
+}
+ul li {
+  width: 430px;
+  height: 430px;
+  float: left;
+  list-style: none;
+}
+
+.biaoti {
+  width: 684px;
+  height: 430px;
+  float: left;
+}
+.biaoti .ti {
+  height: 100px;
+}
+.biaoti .ti span {
+  font-size: 30px;
+  color: #474747;
+  margin-left: 144px;
+  line-height: 68px;
+}
+.biaoti p {
+  font-size: 16px;
+  color: #666666;
+  margin-left: 90px;
+}
+
+.jiage {
+  display: inline-block;
+  padding: 20px 0;
+  margin: 34px 0 25px 104px;
+  font-size: 26px;
+  color: #e90404;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+
+.xuan {
+  width: 600px;
+  margin-top: 44px;
+  text-align: center;
+  line-height: 58px;
+  margin-left: 50px;
+}
+
+.goumai {
+  width: 266px;
+  height: 66px;
+  background: red;
+  color: white;
+  font-size: 24px;
+  float: left;
+  margin-right: 50px;
+}
+
+.jiagou {
+  width: 266px;
+  height: 66px;
+  background: #999999;
+  color: white;
+  font-size: 24px;
+  float: left;
+}
+
+/*# sourceMappingURL=details.css.map */

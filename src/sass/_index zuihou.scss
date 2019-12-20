@@ -1,0 +1,125 @@
+@charset "utf-8";
+// //关于售后-----------------------------------------------------
+.about{
+    height: 333px;
+    margin-top: 40px;
+    .wrap{
+        width: 1190px;
+        margin: 0 auto;
+       
+    }
+}
+.good{
+    width: 1190px;
+    margin: 0 auto;
+    height: 45px;
+    margin-bottom: 40px;
+    li{
+        margin-top: 20px;
+        float: left;
+        width: 296px;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        font-size: 18px;
+        border-right: 1px solid #e9e9e9;
+        color: #999;
+        span{
+            display: inline-block;
+            width: 45px;
+            height: 45px;
+            margin-right: 15px;
+            background: url(../img/about.png) no-repeat;
+            vertical-align: middle;
+        }
+    }
+    .return{
+        border-right: none;
+    }
+}
+
+.zhinan{
+    width: 298px;
+    float: left;
+    float: left;
+    margin-top: 40px;
+    li{
+        border: none;
+        text-align: center;
+        line-height: 24px;
+        a{
+            color: #999;
+        }
+    }
+    .li2{
+        margin-bottom: 11px;
+        font-size: 14px;
+    }
+}
+.lianxi{
+    width: 295px;
+    height: 164px;
+    float: left;
+    border-left: 1px solid #e9e9e9;
+    .lian{
+        margin-left: 67px;
+        line-height: 50px;
+        margin-top: 40px;
+        
+    }
+   
+    .kf{
+        display: block;
+    width: 154px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #ea0f1f;
+    font-size: 16px;
+    border: 1px solid #ff5353;
+    border-radius: 3px;
+    span{
+        display: inline-block;
+        width: 18px;
+        height: 15px;
+        margin-right: 6px;
+        background: url(../img/base.png) no-repeat -188px 0;
+        vertical-align: middle;
+       }
+    }
+   
+}
+.a{
+    margin-left: 30px;
+}
+// //底栏介绍-----------------------------------------------------
+.foot{
+    background-color: #f5f5f5;
+    height: 193px;
+    padding: 25px 0 30px 0;
+    text-align: center;
+    .wrap{
+        width: 1190px;
+        height: 200px;
+        margin: 0 auto;
+        p{
+            padding: 40px 0 15px 0;
+            color: #999;
+        }
+       
+    }
+    .cf{
+        width: 839px;
+        height: 12px;
+        text-align: center;
+        li{
+            float: left;
+            width: 86px; 
+            border-right: 1px solid #DDD;
+            margin-top: 13px;
+        }
+        .li3{
+            width: 133px;
+        }
+    }
+}

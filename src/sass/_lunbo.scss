@@ -1,0 +1,97 @@
+@charset "utf-8";
+//轮播图-----------------------------------------------------
+.lunbo{
+    position: relative;
+    height: 439px;
+    background-color: #565656;
+}
+.yuan{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    
+    & a{
+        display: inline-block;
+        width: 11px; 
+        height: 11px; 
+        border-radius: 6px; 
+        margin: 0 5px; 
+        overflow: hidden; 
+        background-color: #eff0f2;
+    }
+    .action{
+        background: red;
+    }
+}
+.bbd{
+     overflow: hidden;
+    height: 439px;
+    margin: 0 auto;
+    position: relative;
+  
+    .lide{
+        width: 7581px;
+      position: absolute;
+      
+        li{
+             width: 2527px;
+             height: 439px;
+            float: left;
+            position: relative;
+            img{
+               position: relative;
+               left: -360px;
+            }
+        }
+    } 
+}
+.zuo{
+    position: absolute;
+    top: 130px;
+    font-size: 100px;
+    
+}
+.you{
+    position: absolute;
+    top: 130px;
+    font-size: 100px;
+    right: 28px;
+}
+
+
+
+.buying{
+    width: 1190px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    background-color: #FFF;
+    .wrap{
+        position: relative;
+        padding-top: 146px;
+    }
+}
+
+.guanggao{
+    width: 1195px;
+    margin: 0 auto;
+    position: absolute;
+    top: -14px;
+    left: -9px;
+   
+
+}
+.guanggao a{
+    float: left;
+    margin-left: 14px;
+    width: 384px;
+    height: 160px;
+    position: relative;
+    transition: all .2s linear;
+   
+    & img{
+        position: relative;
+    }
+}
